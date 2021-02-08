@@ -20,5 +20,6 @@ Please edit the preferences.json to your desired settings. NOTE: This will only 
 
 ```
     pip install -r requirements.txt
+    python cryptowatch/__main__.py
 
 ```
