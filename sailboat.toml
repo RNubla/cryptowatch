@@ -1,0 +1,48 @@
+#            _  _  _                _   
+#  ___ __ _ (_)| || |__  ___  __ _ | |_ 
+# (_-</ _` || || || '_ \/ _ \/ _` ||  _|
+# /__/\__,_||_||_||_.__/\___/\__,_| \__|
+                                      
+# Basic Setup:
+name = "Cryptowatch"
+short_name = "cryptowatch"
+email = ""
+author = "Robert Nubla"
+short_description = "Get notified of price changes on crypto currency"
+description = "Get up to date with your crypto currency prices"
+url = ""
+keywords = ""
+license = "none"
+latest_build = "0.0.1+build.7"
+
+
+# Resource Setup:
+[resources]
+icns = ""
+data_files = []
+modules = [ "win10toast", "cryptocompare",]
+file = "app.py"
+no_import = [ "locale",]
+
+
+# Plugin Commands:
+
+
+# Build Routines:
+[build.pyinstaller]
+type = 1
+mac = false
+windows = true
+unix = false
+bundle_id = "com.robertnubla.cryptowatch"
+
+
+# Release Routines:
+
+
+# Other:
+[git]
+github = "RNubla/cryptopwatch"
+
+
+# Thank you for using Sailboat!
