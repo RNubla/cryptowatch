@@ -23,3 +23,8 @@ Please edit the preferences.json to your desired settings. NOTE: This will only 
     python cryptowatch/__main__.py
 
 ```
+
+## TODO's
+
+- [ ] Add to system tray
+- [ ] Hide cmd prompt
