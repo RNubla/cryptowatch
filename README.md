@@ -1,7 +1,7 @@
 # Cryptowatch
 
 This is a simple python application that will notify you periodically on the cryptocurrency of your choice
-Please edit the preferences.json to your desired settings
+Please edit the preferences.json to your desired settings. NOTE: This will only work with Windows 10
 
 ```
 {
@@ -14,4 +14,11 @@ Please edit the preferences.json to your desired settings
     }
   ]
 }
+```
+
+## Usage
+
+```
+    pip install -r requirements.txt
+
 ```
