@@ -135,5 +135,4 @@ dmypy.json
 /dist/*
 /build/*
 dist/preference.json
-preference.json
 .vscode/settings.json
